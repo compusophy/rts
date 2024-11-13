@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Privy Auth `create-next-app` Starter
 
 This is a template for integrating [**Privy Auth**](https://www.privy.io/) into a [NextJS](https://nextjs.org/) project. Check out the deployed app [here](https://create-next-app.privy.io/)!
@@ -37,3 +38,6 @@ In your project directory, run `npm run dev`. You can now visit http://localhost
 
 
 **Check out [our docs](https://docs.privy.io/) for more guidance around using Privy in your app!**
+=======
+# rts
+>>>>>>> dae0d42d5d8e2b135faeff96d66fae00bfb95904
