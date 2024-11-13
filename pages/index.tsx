@@ -1,4 +1,4 @@
-import Portal from "../components/graphics/portal";
+//import Portal from "../components/graphics/portal";
 import { useLogin } from "@privy-io/react-auth";
 import { PrivyClient } from "@privy-io/server-auth";
 import { GetServerSideProps } from "next";
@@ -40,20 +40,21 @@ export default function LoginPage() {
     <>
       <Head>
         <title>Login · Privy</title>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet" />
       </Head>
 
       <main className="flex min-h-screen min-w-full">
-        <div className="flex bg-privy-light-blue flex-1 p-6 justify-center items-center">
+        <div className="flex bg-black flex-1 p-6 justify-center items-center">
           <div>
-            <div>
-              <Portal style={{ maxWidth: "100%", height: "auto" }} />
+            <div className="flex justify-center text-center text-white text-bold font-mono text-4xl mb-6">
+              RTS
             </div>
-            <div className="mt-6 flex justify-center text-center">
+            <div className="flex justify-center text-center">
               <button
-                className="bg-violet-600 hover:bg-violet-700 py-3 px-6 text-white rounded-lg"
+                className="mt-6 bg-white text-black hover:bg-black hover:text-white hover:border-white border-2 border-transparent py-3 px-6 rounded-lg font-mono transition-colors duration-600"
                 onClick={login}
               >
-                Log in
+                login
               </button>
             </div>
           </div>
